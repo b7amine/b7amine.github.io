@@ -1,6 +1,5 @@
 title: Amine Boujida
 description: My PF
 baseurl: "/"
-markdown:kramdown
-permalink: /:categories/:year/:month/:day/:title.html 
+markdown: kramdown
 url: "https://b7amine.github.io"
