@@ -39,7 +39,7 @@ This pattern is useful in detecting fraud. In 1972, **Hal Varian** suggested tha
 To see this in action, I picked a dataset from Paris's open data platform: "Subsidies Paid: Appendix Administrative Account from 2018." I checked the distribution of the first digits in the "Prestation en nature" column. As I increased the sample size, the numbers followed Benford's Law more closely.
 
 <video width="100%" height="400" controls>
-  <source src="/videos/Sarah_the_humanoid_robot.mp4" type="video/mp4">
+  <source src="/videos/BENFORD.mp4" type="video/mp4">
 </video>
 
 ### What Does Big Data Tell Us?
