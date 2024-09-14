@@ -257,12 +257,12 @@ Let's examine the previous comparisons using pinball loss:
 <br><br>
 Our new metric provides a different perspective, taking into account the dynamics of the quantile function and its purpose.
 
-### Step 1: Averaged Quantiles Estimator and U-statistics**
+### Step 1: Averaged Quantiles Estimator and U-statistics
 
 While averaging ECDF can be a good estimator, averaging quantiles generally isn't [[2]](#ref2) . Some papers use averaged quantiles [[3]](#ref3) , but there's limited evidence on their quality as estimators (regarding bias, efficiency, and consistency). It's unclear if there are specific setups (distributions or parameters) where they perform well. Two papers [[4]](#ref4)  [[5]](#ref5)  might offer a starting point for investigation. The second one approaches averaged quantiles estimators as U-statistics, showing potential. Unfortunately, neither is publicly available.
 
 
-### Step 2: Weighted Averaged Quantiles**
+### Step 2: Weighted Averaged Quantiles
 
 To get this one, I wondered what the problem would look like from a Bayesian point of view:
 
