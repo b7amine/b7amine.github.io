@@ -1,7 +1,9 @@
 # Conversation with Le Matin Journalist from Morocco about Sarah the Humanoid Robot
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=Pof_0CCQMz0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video width="100%" height="400" controls>
+  <source src="/videos/Sarah_the_humanoid_robot.mp4" type="video/mp4">
+</video>
 
 ## Management & Carrière : Pouvez-vous nous parler de la genèse du projet ? Qui est «Sarah» ? 
 
