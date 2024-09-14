@@ -271,24 +271,24 @@ To get this one, I wondered what the problem would look like from a Bayesian poi
    CDF(a) = P(X ≤ a)
 
 2) **Bayes' Theorem with P(X ≤ a)**:
-   
-   P(X ≤ a | D_i) · P(D_i) = P(D_i | X ≤ a) · P(X ≤ a)
 
-3) **Integrate over D_i**:
-   
-   ∫ P(X ≤ a | D_i) · P(D_i) dD_i = ∫ P(D_i | X ≤ a) · P(X ≤ a) dD_i
+{% raw %}![equation](https://latex.codecogs.com/gif.latex?P%28X%20%5Cleq%20a%20%7C%20D_i%29%20%5Ccdot%20P%28D_i%29%20%3D%20P%28D_i%20%7C%20X%20%5Cleq%20a%29%20%5Ccdot%20P%28X%20%5Cleq%20a%29){% endraw %}
+
+3) **Sum over D_i**:
+
+{% raw %}![equation](https://latex.codecogs.com/gif.latex?%5Csum_i%20P%28X%20%5Cleq%20a%20%7C%20D_i%29%20%5Ccdot%20P%28D_i%29%20%3D%20%5Csum_i%20P%28D_i%20%7C%20X%20%5Cleq%20a%29%20%5Ccdot%20P%28X%20%5Cleq%20a%29){% endraw %}
 
 4) **Factor P(X ≤ a)**:
-   
-   ∫ P(X ≤ a | D_i) · P(D_i) dD_i = P(X ≤ a) · ∫ P(D_i | X ≤ a) dD_i
 
-5) **Integrating over all possible events**:
-   
-   ∫ P(D_i | X ≤ a) dD_i = 1
+{% raw %}![equation](https://latex.codecogs.com/gif.latex?%5Csum_i%20P%28X%20%5Cleq%20a%20%7C%20D_i%29%20%5Ccdot%20P%28D_i%29%20%3D%20P%28X%20%5Cleq%20a%29%20%5Ccdot%20%5Csum_i%20P%28D_i%20%7C%20X%20%5Cleq%20a%29){% endraw %}
+
+5) **Summing over all possible events**:
+
+{% raw %}![equation](https://latex.codecogs.com/gif.latex?%5Csum_i%20P%28D_i%20%7C%20X%20%5Cleq%20a%29%20%3D%201){% endraw %}
 
 6) **Final Marginal Probability**:
-   
-   P(X ≤ a) = ∫ P(X ≤ a | D_i) · P(D_i) dD_i
+
+{% raw %}![equation](https://latex.codecogs.com/gif.latex?P%28X%20%5Cleq%20a%29%20%3D%20%5Csum_i%20P%28X%20%5Cleq%20a%20%7C%20D_i%29%20%5Ccdot%20P%28D_i%29){% endraw %}
 
 Which is the law of total probability. So far, weighted average of ECDF makes sense.
 
